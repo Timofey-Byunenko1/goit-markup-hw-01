@@ -1,0 +1,160 @@
+body{
+
+}
+
+ul,ol{
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header {
+    width: 1440px;
+height: 72px;
+}
+.nav {
+}
+.logo {
+}
+.logo-span {
+ 
+}
+.menu {
+}
+.menu-iten {
+   font-weight: 500;
+    font-size: 16px;
+    
+    // line-height: 24px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.logo-span{
+font-weight: 700;
+font-size: 18px;
+// line-height: 21px; 
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.logo{
+    font-weight: 700;
+font-size: 18px;
+
+// line-height: 21px; 
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+}
+
+.menu-ok{
+    font-weight: 400;
+    font-size: 16px;
+    
+    // line-height: 24px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455; 
+}
+
+
+.logo-btn{
+ font-weight: 500;
+font-size: 16px;
+// line-height: 24px; 
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+}
+
+.logo-text{
+    font-weight: 700;
+font-size: 56px;
+
+// line-height: 60px; 
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+
+
+.logo-two{
+    font-weight: 700;
+font-size: 36px;
+
+// line-height: 40px; 
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+
+.opis{
+    font-weight: 400;
+    font-size: 16px;
+    
+    // line-height: 24px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;  
+}
+
+
+.name{
+    font-weight: 500;
+font-size: 20px;
+
+// line-height: 24px; 
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+}
+
+.logo-three{
+    font-weight: 700;
+font-size: 36px;
+
+// line-height: 40px; 
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+
+
+.main-footer{
+font-weight: 500;
+font-size: 20px;
+// line-height: 24px; 
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+
+
+.text-two{
+    font-weight: 400;
+    font-size: 16px;
+    // line-height: 24px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455; 
+}
+
+
+
+
