@@ -63,7 +63,7 @@ color: #4d5ae5 ;
 }
 
 
-.logo-btn :hover,:focus{
+.logo-btn:hover,.logo-btn:focus{
 background-color: #404BBF;
 }
 
