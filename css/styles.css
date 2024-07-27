@@ -19,7 +19,7 @@ a{
     color:#4d5ae5 ;
 }
 .logo-span {
-    font-family: "Raleway", "sans-serif"
+    font-family: "Raleway", sans-serif
 }
 .menu {
 }
@@ -47,8 +47,6 @@ font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 
-
-line-height: 1.16;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5 ;
@@ -80,7 +78,6 @@ background: #4d5ae5;
 }
 
 .logo-text{
-line-height: 1.07;
 line-height: 1.07;
 font-weight: 700;
 font-size: 56px;
