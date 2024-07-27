@@ -32,14 +32,18 @@ a{
 }
 
 .logo-span{
+line-height: 1.17;
+font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px
 letter-spacing 0.03em
 text-transform uppercase;
-color: black
+color: #2e2f42 
 }
 
 .logo{
+line-height: 1.17;
+font-family: "Raleway", sans-serif; 
 font-weight: 700;
 font-size: 18px;
 
@@ -79,6 +83,8 @@ text-align: center;
 
 
 .logo-two{
+text-transform: capitalize;
+line-height: 1.11;
 font-weight: 700;
 font-size: 36px;
 
@@ -91,11 +97,11 @@ color: #2e2f42;
 
 
 .opis{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;  
+    color:#2e2f42 ;  
 }
 
 
@@ -129,6 +135,7 @@ color: #2e2f42;
 
 
 .text-two{
+background-color: #FFFFFF;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -137,5 +144,13 @@ color: #434455;
 }
 
 
+.hero{
+   background-color:#2e2f42 ; 
+}
+
+
+.section-three{
+ background-color: #F4F4FD;
+}
 
 
