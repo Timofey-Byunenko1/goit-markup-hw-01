@@ -68,6 +68,7 @@ background-color: #404BBF;
 }
 
 .logo-btn{
+line-height: 1.07; 
 cursor: pointer;
 font-family: "Roboto", sans-serif;
  font-weight: 500;
