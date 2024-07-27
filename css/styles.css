@@ -32,13 +32,13 @@ a{
 }
 
 .logo-span{
+color: #4d5ae5;
 line-height: 1.17;
 font-family: "Raleway", sans-serif;
 font-weight: 700;
-font-size: 18px
-letter-spacing 0.03em
-text-transform uppercase;
-color: #2e2f42 
+font-size: 18px;
+letter-spacing: 0.03em;
+text-transform: uppercase ;
 }
 
 .logo{
@@ -64,6 +64,7 @@ color: #4d5ae5 ;
 
 
 .logo-btn{
+cursor: pointer;
 font-family: "Roboto", sans-serif;
  font-weight: 500;
 font-size: 16px; 
@@ -74,6 +75,7 @@ background: #4d5ae5;
 }
 
 .logo-text{
+line-height: 1.07;
 line-height: 1.07;
 font-weight: 700;
 font-size: 56px;
@@ -163,4 +165,17 @@ color: #434455;
 .adres{
 font-style: normal; 
 }
+
+
+
+.logo :focus,:hover {
+ color: #4d5ae5;
+}
+
+
+
+
+
+
+
 
