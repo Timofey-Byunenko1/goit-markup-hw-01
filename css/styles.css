@@ -54,16 +54,17 @@ text-transform: uppercase;
 color: #4d5ae5 ;
 }
 
-.menu-ok{
+.menu-ok :focus{
+    color:#434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; 
 }
 
 
 .logo-btn{
+font-family: "Roboto", sans-serif;
  font-weight: 500;
 font-size: 16px; 
 line-height: 1.5;
@@ -73,11 +74,13 @@ background: #4d5ae5;
 }
 
 .logo-text{
+line-height: 1.07;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07143;
 letter-spacing: 0.02em;
 text-align: center;
+color: #ffffff;
 }
 
 
@@ -145,6 +148,7 @@ color: #434455;
 
 
 .hero{
+
    background-color:#2e2f42 ; 
 }
 
@@ -153,4 +157,10 @@ color: #434455;
  background-color: #F4F4FD;
 }
 
+
+
+
+.adres{
+font-style: normal; 
+}
 
