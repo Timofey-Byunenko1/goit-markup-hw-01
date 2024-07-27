@@ -1,7 +1,7 @@
 body{
- font-family: "Roboto" ;
+ font-family: "Roboto","sans-serif" ;
  color:#434455 ;
- background-color:#FFFFFF ;
+ background-color: #ffffff ;
 }
 
 ul,ol{
@@ -13,17 +13,13 @@ a{
 }
 
 
-.header {
-}
-
-
 .logo {
-    font-family: "Raleway" , "sans-serif";
+    font-family: "Raleway","sans-serif";
     line-height: 1.17; 
     color:#4d5ae5 ;
 }
 .logo-span {
- 
+    font-family: "Raleway", "sans-serif"
 }
 .menu {
 }
@@ -44,7 +40,7 @@ color: black
 }
 
 .logo{
-    font-weight: 700;
+font-weight: 700;
 font-size: 18px;
 
 
@@ -69,14 +65,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
 }
 
 .logo-text{
-    font-weight: 700;
+font-weight: 700;
 font-size: 56px;
-
 line-height: 1.07143;
 letter-spacing: 0.02em;
 text-align: center;
@@ -85,7 +79,7 @@ text-align: center;
 
 
 .logo-two{
-    font-weight: 700;
+font-weight: 700;
 font-size: 36px;
 
  
@@ -106,7 +100,7 @@ color: #2e2f42;
 
 
 .name{
-    font-weight: 500;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -135,11 +129,11 @@ color: #2e2f42;
 
 
 .text-two{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455; 
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455; 
 }
 
 
