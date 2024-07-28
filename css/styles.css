@@ -14,13 +14,15 @@ a{
 
 
 .logo {
-    font-family: "Raleway","sans-serif";
+    font-family: "Raleway",sans-serif;
     line-height: 1.17; 
     color:#4d5ae5 ;
+
 }
 .logo-span {
     font-family: "Raleway", sans-serif;
     color:#2e2f42 ;
+
 }
 
 .menu {
@@ -33,6 +35,14 @@ a{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
+
+.menu-iten:hover,.menu-iten :focus{
+color: #404bbf ;
+}
+
+
+
 
 .logo-span{
 color: #2e2f42;
