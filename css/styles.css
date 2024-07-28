@@ -36,13 +36,7 @@ a{
     color:#2e2f42 ;
 }
 
-
-.menu-iten:hover,.menu-iten:focus{
-color:#4d5ae5;
-}
-
-
-
+.menu-iten{}
 
 .logo-span{
 color: #2e2f42;
