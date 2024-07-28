@@ -28,7 +28,7 @@ a{
 .menu {
   color:  #2e2f42; 
 }
-.menu-iten {
+.menu-iten{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -37,7 +37,7 @@ a{
 }
 
 
-.menu-iten:hover,.menu-iten :focus{
+.menu-iten:hover,.menu-iten:focus{
 color:#4d5ae5;
 }
 
