@@ -36,7 +36,13 @@ a{
     color:#2e2f42 ;
 }
 
-.menu-iten{}
+.menu-iten{
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42 ;  
+}
 
 .logo-span{
 color: #2e2f42;
@@ -66,6 +72,12 @@ color: #4d5ae5 ;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.menu-ok:hover,.menu-ok:focus{
+    color: #404bbf; 
+}
+
+
 
 
 .logo-btn:hover,.logo-btn:focus{
@@ -104,6 +116,11 @@ font-size: 36px;
 letter-spacing: 0.02em;
 text-align: center;
 }
+
+
+
+
+
 
 
 .opis{
@@ -156,7 +173,7 @@ font-style: normal;
 
 
 
-.logo :focus,:hover {
+.logo:focus,:hover {
  color: #4d5ae5;
 }
 
@@ -231,7 +248,7 @@ color:#434455 ;
 
 
 
-.info :focus,.info :hover{
+.info:focus,.info:hover{
  color: #404bbf ;
 }
 
