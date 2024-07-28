@@ -102,13 +102,13 @@ color: #ffffff;
 
 
 .logo-two{
+color: #2e2f42;
 line-height: 1.11;
 text-transform: capitalize;
 font-weight: 700;
 font-size: 36px;
 letter-spacing: 0.02em;
 text-align: center;
-color: #2e2f42;
 }
 
 
@@ -122,6 +122,7 @@ color: #2e2f42;
 
 
 .name{
+ color: #2e2f42;   
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
