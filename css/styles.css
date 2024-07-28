@@ -104,12 +104,8 @@ color: #ffffff;
 .logo-two{
 line-height: 1.11;
 text-transform: capitalize;
-line-height: 1.11;
 font-weight: 700;
 font-size: 36px;
-
- 
-line-height: 1.11111;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
@@ -258,6 +254,23 @@ color:#434455 ;
     line-height: 1.5;
     color: #434455 ;
 }
+
+
+
+.section-thre{
+background-color: #FFFFFF 
+}
+
+
+.paragrav-tru{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
 
 
 
