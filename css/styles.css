@@ -29,11 +29,11 @@ a{
   color:  #2e2f42; 
 }
 .menu-iten {
-   font-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color:#2e2f42 ;
 }
 
 
@@ -102,6 +102,7 @@ color: #ffffff;
 
 
 .logo-two{
+line-height: 1.11;
 text-transform: capitalize;
 line-height: 1.11;
 font-weight: 700;
@@ -140,9 +141,6 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 }
-
-
-
 
 
 
@@ -233,7 +231,34 @@ color:#434455 ;
 }
 
 .menu-link{
-    
+
 }
+
+.info{
+    color: #434455 ;
+}
+
+
+
+.info :focus,.info :hover{
+ color: #404bbf ;
+}
+
+
+.zagalovok{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+
+.paragrav{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455 ;
+}
+
+
 
 
