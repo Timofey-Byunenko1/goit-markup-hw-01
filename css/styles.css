@@ -36,12 +36,8 @@ a{
     color:#2e2f42 ;
 }
 
-.menu-iten{
-     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#2e2f42 ;  
+.menu-iten:hover,.menu-iten:focus{
+  color: #404bbf  ; 
 }
 
 .logo-span{
@@ -285,6 +281,8 @@ background-color: #FFFFFF
 
 
 
-
+.logo-menu-i{
+    color: #2e2f42;
+}
 
 
