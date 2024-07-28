@@ -19,8 +19,10 @@ a{
     color:#4d5ae5 ;
 }
 .logo-span {
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
+    color:#2e2f42 ;
 }
+
 .menu {
 }
 .menu-iten {
@@ -187,16 +189,8 @@ font-style: normal;
 }
 
 
-.footer-nuz{
-    background-color: #2e2f42 ;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px ;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5 ;
+.section-footer{
+    
 }
-
 
 
