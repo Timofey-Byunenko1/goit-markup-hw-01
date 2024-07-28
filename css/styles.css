@@ -65,7 +65,7 @@ text-transform: uppercase;
 color: #4d5ae5 ;
 }
 
-.menu-ok :focus{
+.menu-ok{
     color:#434455;
     font-weight: 400;
     font-size: 16px;
