@@ -261,15 +261,10 @@ font-style: normal;
 }
 
 
-.section-footer{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-}
 
 
 .text-footer{
+ margin-bottom: 72px;   
  font-size: 36px;
  line-height: 1.11;
  text-align: center; 
@@ -358,10 +353,21 @@ background-color: #FFFFFF
 
 
 .paragrav-tru{
+    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+
+
+.section-footer{
+    padding: 120px 0 120px 0;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 
@@ -380,5 +386,19 @@ background-color: #FFFFFF
 .ul-info{
  display: flex; 
  gap: 40px;
+}
+
+
+.footer-ul{
+    display: flex; 
+    flex-wrap: wrap; 
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+
+
+.li-footer{
+ width: calc((100% - 48px) / 3);   
 }
 
