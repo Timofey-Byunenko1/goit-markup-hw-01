@@ -74,11 +74,15 @@ text-transform: uppercase ;
 }
 
 .logo{
+padding: 24px 0 24px;   
+gap: 40px;   
+display: flex;   
+margin-bottom: 16px;   
+display: inline-block;   
 line-height: 1.17;
 font-family: "Raleway", sans-serif; 
 font-weight: 700;
 font-size: 18px;
-
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5 ;
@@ -245,6 +249,7 @@ font-style: normal;
 
 
 .footer-menu{
+    padding: 100px 0 100px;
     background-color: #2e2f42 ;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -299,6 +304,7 @@ color:#434455 ;
 
 
 .parag{
+    max-width: 264px;
     line-height: 1.5;
     color:#F4F4FD ;
     letter-spacing: 0.02em;
@@ -368,5 +374,11 @@ background-color: #FFFFFF
 
 .logo-menu-i:hover,.logo-menu-i:focus{
     color:#404bbf  ;
+}
+
+
+.ul-info{
+ display: flex; 
+ gap: 40px;
 }
 
