@@ -299,6 +299,7 @@ color:#434455 ;
 
 
 .span-footer{
+    display: inline-block ; 
     color:#f4f4fd ;
 }
 
@@ -411,7 +412,7 @@ background-color: #FFFFFF
 
 
 .div-footer{
-    border-top: none;
+    border-top: none ;
     border: 1px solid #e7e9fc;
     padding: 32px 16px;  
 }
@@ -424,7 +425,9 @@ background-color: #FFFFFF
 }
 
 
-
+.container{
+    border-top: none;
+}
 
 
 
