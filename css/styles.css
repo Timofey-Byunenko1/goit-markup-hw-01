@@ -12,14 +12,37 @@ a{
     text-decoration: none;
 }
 
+.header{
+border-bottom: 1px solid #e7e9fc
+}
+
+
+.container{
+ display: flex;
+ width: 1158px;
+ margin: 0 auto ;
+ padding: 0 15px;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
 
 .logo {
+    margin-right: 76px;
     font-family: "Raleway",sans-serif;
     line-height: 1.17; 
     color:#4d5ae5 ;
 
 }
 .logo-span {
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     color:#2e2f42 ;
 
@@ -80,7 +103,15 @@ color: #4d5ae5 ;
 background-color: #404BBF;
 }
 
+
 .logo-btn{
+ cursor: pointer;   
+ border-radius: 4px;   
+ background-color: #4d5ae5 ;
+ border: none;   
+ height: 56px;   
+ min-width: 169px ;   
+display: block;   
 line-height: 1.07; 
 cursor: pointer;
 font-family: "Roboto", sans-serif;
@@ -92,7 +123,9 @@ color: #fff;
 background: #4d5ae5;
 }
 
+
 .logo-text{
+max-width: 496px;   
 line-height: 1.07;
 font-weight: 700;
 font-size: 56px;
@@ -104,6 +137,7 @@ color: #ffffff;
 
 
 .logo-two{
+ margin-bottom: 72px;   
 color: #2e2f42;
 line-height: 1.11;
 text-transform: capitalize;
@@ -115,17 +149,51 @@ text-align: center;
 
 
 
+.ul-three{
+    display: flex;
+    gap: 24px;
+}
 
 
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 
 .opis{
+    padding-bottom: 120px;
+    padding-top: 120px;
     font-weight:500;
     font-size:20px;
     line-height:1.2;
     letter-spacing:0.02em;
     color:#2e2f42 ;  
 }
+
+
+.ul-section{
+    display: flex;
+    gap: 24px;
+
+}
+
+
+.li-clas{
+ width: calc((100% - 72px) / 4); 
+}
+
+
 
 
 .name{
@@ -148,15 +216,17 @@ color: #2e2f42;
 
 
 
-
-
 .hero{
+    padding-bottom: 188px;
+    padding-top: 188px;
    line-height: 1.07;
    background-color:#2e2f42 ; 
 }
 
 
 .section-three{
+ padding-bottom: 120px;   
+ padding-top: 120px;   
  background-color: #F4F4FD;
 }
 
@@ -250,6 +320,7 @@ color:#434455 ;
 
 
 .zagalovok{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -267,8 +338,17 @@ color:#434455 ;
 
 
 .section-thre{
+border-radius: 0px 0px 4px 4px;   
+width: calc((100% - 72px) / 4);    
 background-color: #FFFFFF 
 }
+
+
+.div-section{
+    padding: 32px 0 32px;
+}
+
+
 
 
 .paragrav-tru{
