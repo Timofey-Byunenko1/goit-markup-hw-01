@@ -20,7 +20,7 @@ border-bottom: 1px solid #e7e9fc
 .container{ 
     display: flex;   
  border: 1px solid #E7E9FC;
- border-top: none;
+ border-top: none ;
  width: 1158px;
  margin: 0 auto ;
  padding: 0 15px;
@@ -88,12 +88,12 @@ text-transform: uppercase ;
 }
 
 .logo{
-display:inline-block;   
+display: inline-block ;   
 padding: 24px 0 24px ;    
-gap: 40px;   
+gap: 40px ;   
 display: flex;   
 margin-bottom: 16px;   
-display:inline-block;   
+display: inline-block;   
 line-height: 1.17;
 font-family: "Raleway", sans-serif; 
 font-weight: 700;
@@ -425,8 +425,8 @@ background-color: #FFFFFF
 
 
 .div-footer{
-    border-top: none ;
-    border: 1px solid #e7e9fc;
+     border: 1px solid #e7e9fc; 
+    border-top: none;
     padding: 32px 16px;  
 }
 
@@ -441,7 +441,8 @@ background-color: #FFFFFF
 
 
 .li-footer{
-
+ margin: 0%;   
+ padding-left: 0;
  width: calc((100% - 48px) / 3);   
 }
 
