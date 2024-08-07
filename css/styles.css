@@ -6,6 +6,8 @@ body{
 
 ul,ol{
     list-style-type:none;
+    padding: 0;
+    margin: 0;
 }
 
 a{
@@ -18,7 +20,6 @@ border-bottom: 1px solid #e7e9fc
 
 
 .container{ 
- 
  border-top: none ;
  width: 1158px;
  margin: 0 auto ;
@@ -30,6 +31,7 @@ border-bottom: 1px solid #e7e9fc
 
 .top-line{
     display: flex; 
+    align-items: center;
 }
 
 
@@ -50,9 +52,8 @@ border-bottom: 1px solid #e7e9fc
 
 }
 .logo-span {
-  padding: 24px 0 24px;
-    display: flex;
-    margin-right: 76px;
+
+
     font-family: "Raleway", sans-serif;
     color:#2e2f42 ;
 
@@ -80,22 +81,16 @@ margin: 0;
 }
 
 .logo-span{
-padding: 24px 0 24px;   
+
 color: #2e2f42;
-line-height: 1.17;
-font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-letter-spacing: 0.03em;
-text-transform: uppercase ;
+
 }
 
 .logo{
-display: inline-block ;   
-padding: 24px 0 24px ;    
-gap: 40px ;   
-display: flex;   
-margin-bottom: 16px;     
+   
+   
+gap: 40px ;    
+   
 line-height: 1.17;
 font-family: "Raleway", sans-serif; 
 font-weight: 700;
@@ -196,7 +191,7 @@ text-align: center;
 .opis{
     padding-bottom: 120px;
     padding-top: 120px;
-    font-weight:500;
+
     font-size:20px;
     line-height:1.2;
     letter-spacing:0.02em;
@@ -268,21 +263,16 @@ font-style: normal;
 
 
 
-.logo:focus,:hover {
+.logo:focus, .logo:hover {
  color: #4d5ae5;
 }
 
 
 .footer-menu{
     padding: 100px 0 100px;
-    background-color: #2e2f42 ;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px ;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5 ;
+    background-color: #2e2f42;
+    
+
 }
 
 
