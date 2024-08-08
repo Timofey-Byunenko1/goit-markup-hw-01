@@ -137,10 +137,14 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 background: #4d5ae5;
+margin: 0 auto;
 }
 
 
 .logo-text{
+    margin-bottom: 48px;
+ margin-right: auto;   
+ margin-left: auto;   
 max-width: 496px;   
 line-height: 1.07;
 font-weight: 700;
@@ -259,6 +263,7 @@ color: #2e2f42;
 
 .adres{
 font-style: normal; 
+margin-left: auto;
 }
 
 
@@ -343,6 +348,7 @@ color:#434455 ;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 
 
@@ -385,8 +391,9 @@ background-color: #FFFFFF
     padding: 120px 0 120px 0;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
+
     letter-spacing: 0.02em;
+
 }
 
 
@@ -455,6 +462,15 @@ padding-top: 24px;
 .logo-footer{
     display: inline-block;
     margin-bottom: 16px;
+    font-weight: 700;
+font-size: 18px;
+
+/* line-height: 21px; */ 
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+font-family: "Raleway", sans-serif;
 }
 
 
