@@ -51,12 +51,9 @@ border-bottom: 1px solid #e7e9fc
     color:#4d5ae5 ;
 
 }
-.logo-span {
-
-
+.logo-span{
     font-family: "Raleway", sans-serif;
     color:#2e2f42 ;
-
 }
 
 .menu {
@@ -81,9 +78,7 @@ margin: 0;
 }
 
 .logo-span{
-
 color: #2e2f42;
-
 }
 
 .logo{
@@ -485,6 +480,8 @@ img {
 
 
 
-
+h1,h2,h3,p{
+    margin: 0;
+}
 
 
