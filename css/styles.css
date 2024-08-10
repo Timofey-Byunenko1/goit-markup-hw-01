@@ -27,8 +27,9 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
  padding: 0 15px;
  padding-left: 15px;
  padding-right: 15px;
-        
-           align-items: baseline,
+
+
+  align-items: baseline,
 
 }
 
@@ -53,6 +54,8 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     font-family: "Raleway",sans-serif;
     line-height: 1.17; 
     color:#4d5ae5 ;
+    position: relative;
+
 
 }
 .logo-span{
@@ -67,6 +70,7 @@ gap: 40px;
   display: flex;   
   color:  #2e2f42; 
            position: relative;
+        
 }
 .menu-iten{
 padding-left: 0;
@@ -359,9 +363,9 @@ color:#434455 ;
     letter-spacing: 0.02em;
     margin: 0;
      margin-bottom: 8px;
-
-
 }
+
+
 
 
 .paragrav{
@@ -508,22 +512,40 @@ font-size: 16px;
 /* line-height: 24px; */ 
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #fff;
+color: #FFFFFF;
+margin-bottom: 16px;
 }
-
 
 
 .div-ff{
     width: 208px;
 height: 80px;
-margin-right: 80px;
+display: flex;
+align-items: baseline;
+margin-right: 120px
 }
-
 
 .icon{
     fill: #4d5ae5;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+
+}
+
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
 }
 
 
 
-
+.logo-wrap{
+    margin-right: 120px;
+}
