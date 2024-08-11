@@ -492,7 +492,7 @@ padding-top: 24px;
 
 }
 
-.li-footer:hover{
+.li-footer:hover.overlay{
     transform: translateY(0%);
 }
 
