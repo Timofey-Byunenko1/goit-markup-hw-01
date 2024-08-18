@@ -979,8 +979,9 @@ position: relative;
 
 .form-cont{
     display: flex; 
-
+    gap: 24px;  
 }
+     
 
 
 
