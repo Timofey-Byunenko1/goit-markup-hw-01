@@ -788,11 +788,16 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
-    width: 517px;
-    height: 794px;
+    width: 408px;
+    min-height: 584px;
     background-color: #fafafa;
 
     padding: 72px 24px 24px 24px;
+
+    background: #fcfcfc;
+    box-shadow:0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -823,12 +828,15 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 padding: 0;
 cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
 .modal-close-btn:hover,.modal-close-btn:focus{
     stroke: #fd9222;
     background-color: #404bbf;
+
+    fill: #ffffff;
 }
 
 
@@ -852,6 +860,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     text-align: center; 
     letter-spacing: 0.02em;
 
+    margin-bottom: 16px;
 }
 
 
@@ -892,6 +901,8 @@ position: relative;
     padding-left: 38px; 
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    name:user-name;
 }
 
 
@@ -911,6 +922,7 @@ position: relative;
 
 .close-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    height: 8;
 }
 
 
@@ -924,7 +936,7 @@ position: relative;
 
 
 .form-wrraper-label-coment{
-    
+    margin-bottom: 16px 
 }
 
 
