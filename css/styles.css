@@ -868,7 +868,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 font-weight: 400;
 font-size: 14px;
 letter-spacing: -0.02em;
-color:#2E2F42 ;
+color:#8e8f99 ;
 display: block;
 margin-bottom: 8px;
 
@@ -1210,12 +1210,7 @@ width: 169px;
 height: 56px;
 
 
-left: auto;
-display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 10px;
+display: block;
 }
 
 
