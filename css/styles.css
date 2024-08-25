@@ -853,7 +853,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
     line-height: 1.5;
     letter-spacing: -0.03em;
-    text-transform: uppercase;
     color: #2E2F42 ;
 
     font-weight: 500;
@@ -914,10 +913,14 @@ position: relative;
     border-radius: 4px;
     padding-left: 38px;
 
+    
 }
+ 
 
 .modal-imput:focus{
     border-color: #4D5AE5;
+
+    fill: #404BBF;
 }
 
 
@@ -933,7 +936,7 @@ position: relative;
     left: 16px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    fill: #4D5AE5;
+
 }
 
 
@@ -1205,12 +1208,14 @@ fill: #F4F4FD;;
 
     border: none;
     border-radius: 4px;
-padding: 16px 32px;
+
 width: 169px;
 height: 56px;
 
 
 display: block;
+
+margin: auto;
 }
 
 
