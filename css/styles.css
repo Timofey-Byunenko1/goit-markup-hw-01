@@ -31,8 +31,12 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
  width: 320px;   /* max-width: 320px; */ 
 
-  align-items: baseline,
+  align-items: baseline;
 
+ width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+/*  */
 }
 
 
@@ -42,11 +46,18 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 
+.buton-svg{
+    display: flex;
+    margin-left: 190px;
+}
+
+
 
 .nav{
     display: flex ;
     align-items: center;
 }
+
 
 
 .logo{
@@ -315,7 +326,11 @@ margin-left: auto;
     padding: 100px 0 100px;
     background-color: #2e2f42;
     
-
+    
+        min-width: 320px; /*   */ 
+        color: #F4F4FD;
+        padding: 96px 0;
+      
 }
 
 
@@ -353,7 +368,7 @@ color:#434455 ;
 
 
 .span-footer{
-    display: inline-block ; 
+    display: inline-block ; /*   */  
     color:#f4f4fd ;
 }
 
@@ -609,19 +624,29 @@ margin-bottom: 16px;
 
 
 .footer-container{
-   display: flex; /*  */ 
-    align-items: baseline;
+   display: flex; 
+     align-items: baseline;/*  */
+
+   display: flex;
+     flex-direction: column;
+     gap: 72px;
+     justify-content: flex-start;
+     align-items: baseline;
+     padding: 0 15px;
+      /*   */
 }
 
 
 
 .logo-wrap{
     margin-right: 120px;
+
+   /* text-align: center;  */ 
 }
 
 
 .ul-footer{
-    display: flex;
+  display: flex;/*    */
     gap: 16px;
 }
 
@@ -1254,9 +1279,25 @@ margin: auto;
 
 @media screen and (min-width: 768px) {
    .container{
-    min-width: 768px;
-    
+  
+     min-width: 768px;
+
+       width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+       /*  */ 
    }
+
+.footer-container{
+flex-direction: row;
+   flex-wrap: wrap;
+    column-gap: 0;
+    padding: 0;
+    padding-left: 108px;
+
+        /*    */ 
+}
+
 
    .li-clas{
     padding-left: 0;
@@ -1293,6 +1334,9 @@ margin: auto;
             
     }
 
+    .buton-svg{
+        display: none;
+    }
 }
 
 
@@ -1300,6 +1344,12 @@ margin: auto;
     .container{
      width: 1158px;
      padding: 0 15;
+
+   width: 1158px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 0 15px; 
+     /*    */ 
     }
  
     .footer-ul{
@@ -1388,6 +1438,10 @@ margin: auto;
        display: flex; /*   */ 
          align-items: baseline;
 
+     margin: auto;
+    padding: 0 15px;
+    /* 
+      */ 
      }
 
 
@@ -1403,6 +1457,16 @@ margin: auto;
 
      .svg-mobile{
         display: flex;
+    }
+
+
+    .footer-menu{
+        padding: 100px 0;
+    }
+
+
+    .buton-svg{
+        display: none;
     }
 
  }
