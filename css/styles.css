@@ -29,7 +29,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
  padding-right: 15px;
 
 
- width: 320px;   /* max-width: 320px; */ 
+    /* */ 
 
   align-items: baseline;
 
@@ -339,10 +339,10 @@ margin-left: auto;
     background-color: #2e2f42;
     
     
-        min-width: 320px; /*   */ 
-        color: #F4F4FD;
-        padding: 96px 0;
       
+      /*    min-width: 320px;  
+        color: #F4F4FD;
+        padding: 96px 0; */
 }
 
 
@@ -391,6 +391,7 @@ color:#434455 ;
     line-height: 1.5;
     color:#F4F4FD ;
     letter-spacing: 0.02em;
+
 }
 
 .menu-link{
@@ -606,6 +607,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
+margin-left: 50px;
 }
 
 
@@ -640,31 +642,34 @@ margin-bottom: 16px;
 
 
 .footer-container{
-   display: flex; 
-     align-items: baseline; /* */
+   /* display: flex; 
+     align-items: baseline; */
 
-  display: flex;
+ 
+   display: flex;
      flex-direction: column;
      gap: 72px;
      justify-content: flex-start;
      align-items: baseline;
      padding: 0 15px;
- 
-      /*       */
+      /*      */
+      text-align: center; 
 }
 
 
 
 .logo-wrap{
-    margin-right: 120px;
+    margin-right: 10px;
 
-   /* text-align: center;  */ 
+   /*  text-align: center; */ 
 }
 
 
 .ul-footer{
   display: flex;/*    */
     gap: 16px;
+
+    margin-left: 50px;
 }
 
 
@@ -1041,9 +1046,9 @@ position: relative;
 
 
 .footer-menu-cont{
-
+ 
    margin-left: auto;
-  /*  display: flex;  */
+  /* display: flex;  */
   flex-direction: row;
 }
 
@@ -1115,8 +1120,8 @@ position: relative;
     border-radius: 4px;
     padding: 8px 24px;
     
-    
-    
+    margin-top: 30px; 
+    margin-left: 45px;
 }
 
 
@@ -1390,8 +1395,24 @@ flex-direction: row;
 
 }
 
+.footer-menu-cont{
+    margin-right: 200px;
 }
 
+
+.form-cont {
+    display: flex;
+    gap: 24px;}
+
+.footer-cont{
+    margin-right: 400px;
+}
+
+.button-cont{
+    margin-bottom: 200px;
+}
+
+}
 
 
 
@@ -1402,14 +1423,12 @@ flex-direction: row;
 
 @media screen and (min-width: 1158px) {
     .container{
-     width: 1158px;
-     padding: 0 15;
-
-   width: 1158px;
+     
+    width: 1158px;
      margin-left: auto;
      margin-right: auto;
      padding: 0 15px; 
-     /*    */ 
+     /*   */ 
     }
  
     .footer-ul{
@@ -1483,13 +1502,13 @@ flex-direction: row;
 
 
     .footer-container{
-        display: flex; 
-        align-items: baseline;
-/*    */   margin: auto;
- padding: 0 15px ; 
-     
   
-    /*    */ 
+     
+      display: flex; 
+        align-items: baseline;
+  margin: auto;
+ padding: 0 15px ;
+    /*       */ 
      }
 
 
@@ -1509,13 +1528,38 @@ flex-direction: row;
 
 
     .footer-menu{
-        padding: 100px 0;
+      
+          /*  padding: 100px 0; */
     }
 
 
     .buton-svg{
         display: none;
     }
+
+
+    .form-cont {
+        display: flex;
+        gap: 24px;}
+
+
+.button-cont{
+    margin-bottom: 150px;
+}
+
+.footer-cont{
+    margin-right: 250px;
+}
+
+.ul-footer{
+    margin-left: 100px;
+}
+
+
+.footer-menu-cont{
+    margin-left:  650px;
+    margin-bottom: 100px;
+}
 
  }
 
