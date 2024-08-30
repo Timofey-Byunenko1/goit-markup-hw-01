@@ -49,6 +49,8 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .buton-svg{
     display: flex;
     margin-left: 190px;
+    border: none;
+    background: transparent;
 }
 
 
@@ -83,9 +85,16 @@ gap: 40px;
   display: none;   
   color:  #2e2f42; 
            position: relative;
+       
 
-        
+
 }
+
+
+.button-menu{
+
+}
+
 .menu-iten{
 padding-left: 0;
 margin: 0;
@@ -209,8 +218,11 @@ text-align: center;
 .ul-three{
  padding-left: 0;
  margin: 0%;   
-     /*  display: flex; */
-    gap: 24px;
+ gap: 72px;
+ justify-content: center;     /*   flex-direction: column; display: flex; 
+
+    
+     */
 }
 
 
@@ -474,19 +486,23 @@ padding-top: 24px;
 
 
 .ul-info{
- display: flex; 
+    display: flex;
  gap: 40px;
+
+
 }
 
 
 .footer-ul{
      padding-left: 0;    
     margin: 0%;
-   /*  display: flex;  */ 
+  /* display: flex;   
     flex-wrap: wrap; 
     column-gap: 24px;
-    row-gap: 48px;
-             
+    row-gap: 48px; */    
+   
+          
+    
 }
 
 
@@ -625,15 +641,16 @@ margin-bottom: 16px;
 
 .footer-container{
    display: flex; 
-     align-items: baseline;/*  */
+     align-items: baseline; /* */
 
-   display: flex;
+  display: flex;
      flex-direction: column;
      gap: 72px;
      justify-content: flex-start;
      align-items: baseline;
      padding: 0 15px;
-      /*   */
+ 
+      /*       */
 }
 
 
@@ -1025,8 +1042,9 @@ position: relative;
 
 .footer-menu-cont{
 
-   margin-left: auto;/*   */
-   
+   margin-left: auto;
+  /*  display: flex;  */
+  flex-direction: row;
 }
 
 
@@ -1043,8 +1061,9 @@ position: relative;
 
 
 .form-cont{
-   display: flex;  /*   */
+   /*   display: flex;  */
     gap: 24px;  
+
 }
      
 
@@ -1091,6 +1110,13 @@ position: relative;
     background-color: #4D5AE5 ;
     border: none;
     border-radius: 4px;
+   
+    
+    border-radius: 4px;
+    padding: 8px 24px;
+    
+    
+    
 }
 
 
@@ -1282,13 +1308,14 @@ margin: auto;
   
      min-width: 768px;
 
-       width: 320px;
+  
+       /*     width: 320px;
   margin: 0 auto;
-  padding: 0 16px;
-       /*  */ 
+  padding: 0 16px;  */ 
    }
 
 .footer-container{
+
 flex-direction: row;
    flex-wrap: wrap;
     column-gap: 0;
@@ -1337,8 +1364,41 @@ flex-direction: row;
     .buton-svg{
         display: none;
     }
+
+    .ul-info{
+    
+        gap: 40px;
+    
+    
+    }
+
+    .ul-three{
+       padding-left: 0;
+         margin: 0%;  
+      display: flex; 
+       justify-content: center;
+        flex-wrap: wrap; 
+          gap: 72px;
+       
+ 
+  }
+
+.footer-ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
+}
+
+
+
+
+
+
+
+  /*  dekstop  */
 
 @media screen and (min-width: 1158px) {
     .container{
@@ -1384,18 +1444,6 @@ flex-direction: row;
             box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);} 
 
 
-            
-.footer-ul{
-    padding-left: 0;    
-   margin: 0%;
-   display: flex;  
-   flex-wrap: wrap; 
-   column-gap: 24px;
-   row-gap: 48px;
-            
-}
-
-
 
 .li-clas{
     padding-left: 0;
@@ -1435,13 +1483,13 @@ flex-direction: row;
 
 
     .footer-container{
-       display: flex; /*   */ 
-         align-items: baseline;
-
-     margin: auto;
-    padding: 0 15px;
-    /* 
-      */ 
+        display: flex; 
+        align-items: baseline;
+/*    */   margin: auto;
+ padding: 0 15px ; 
+     
+  
+    /*    */ 
      }
 
 
