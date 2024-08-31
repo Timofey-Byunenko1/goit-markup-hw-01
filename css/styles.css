@@ -48,7 +48,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 .buton-svg{
     display: flex;
-    margin-left: 150px;
+
     border: none;
     background: transparent;
 }
@@ -92,6 +92,7 @@ gap: 40px;
 
 
 .button-menu{
+
 
 }
 
@@ -1350,13 +1351,11 @@ flex-direction: row;
     background-color: #FFFFFF ;
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
-
     .footer-container{
          display: flex;
          align-items: baseline;
-         /*  width: calc((100% - 72px) / 2); */ 
+         /*  width: calc((100% - 72px) / 2);  flex-direction: column;*/ 
      }
-
 
      .menu {
         padding-left: 0;
@@ -1364,9 +1363,7 @@ flex-direction: row;
     gap: 40px; 
       display: flex;   
       color:  #2e2f42; 
-               position: relative;
-               
-            
+               position: relative;   
     }
 
     .buton-svg{
@@ -1374,11 +1371,12 @@ flex-direction: row;
     }
 
     .ul-info{
-    
-        gap: 40px;
-    
-    
+        display: flex;
+        gap: 20px;
+     flex-direction: column;
     }
+
+
 
     .ul-three{
        padding-left: 0;
@@ -1396,6 +1394,10 @@ flex-direction: row;
     flex-direction: row;
     flex-wrap: wrap;
 
+padding: 5px;
+border-radius: 50px 5px 5px 5px;
+position: relative;
+gap: 6px;
 }
 
 .footer-menu-cont{
