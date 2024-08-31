@@ -1402,14 +1402,15 @@ flex-direction: row;
 
 }
 
-
+  
 .form-cont {
     display: flex;
-    gap: 24px;
+ 
     flex-direction: row;
+       /*   gap: 24px;*/ 
 }
 .footer-cont{
-    margin-right: 400px;
+ 
 }
 
 .button-cont{
