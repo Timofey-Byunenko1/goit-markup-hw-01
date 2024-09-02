@@ -1093,6 +1093,7 @@ position: relative;
     letter-spacing: 0.02em; 
     color: #ffffff;
     text-align: center;
+    
 }
 
 
@@ -1454,7 +1455,8 @@ gap: 72px 24px;
        /*   gap: 24px;*/ 
 }
 .footer-cont{
- 
+ margin-left: auto;
+ margin-right: 375px;
 }
 
 .button-cont{
@@ -1489,8 +1491,8 @@ gap: 72px 24px;
 }
 
 .p-foter{
-    margin-right: auto;
-    text-align: center;
+    margin-right: 100px;
+    
 }
 
 }
