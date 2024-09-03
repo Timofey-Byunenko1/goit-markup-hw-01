@@ -1502,6 +1502,11 @@ gap: 72px 24px;
     
 }
 
+.hero{
+    
+    
+}
+
 }
 
 
@@ -1669,9 +1674,11 @@ gap: 72px 24px;
 }
 
 .hero{
-    padding: 188px 188px;
+    padding: 188px 0;
     margin: auto;
 }
+
+
 
 }
 
