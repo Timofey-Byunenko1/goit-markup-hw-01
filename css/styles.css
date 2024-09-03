@@ -443,6 +443,7 @@ color:#434455 ;
     letter-spacing: 0.02em;
     margin: 0;
      margin-bottom: 8px;
+     text-align: center;
 }
 
 
@@ -601,7 +602,7 @@ padding-top: 24px;
 
 .logo-footer{
     display:block;
-    text-align: center;
+    text-align: left;
     margin-bottom: 16px;
     font-weight: 700;
 font-size: 18px;
@@ -612,6 +613,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 font-family: "Raleway", sans-serif;
+text-align: center;
 }
 
 
@@ -684,6 +686,7 @@ text-align: center;
      justify-content: flex-start;
      align-items: baseline;
      padding: 0 15px;
+     align-items: center;
       /*      */
     
 }
@@ -1374,6 +1377,10 @@ flex-direction: row;
         
 }
 
+.logo-footer{
+    text-align: left;
+}
+
 
    .li-clas{
     padding-left: 0;
@@ -1628,7 +1635,7 @@ gap: 72px 24px;
 }
 
 .footer-cont{
-    margin-right: 250px;
+    text-align: left;
 }
 
 .ul-footer{
