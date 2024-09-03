@@ -1668,7 +1668,10 @@ gap: 72px 24px;
  flex-direction: row;
 }
 
-
+.hero{
+    padding: 188px 188px;
+    margin: auto;
+}
 
 }
 
